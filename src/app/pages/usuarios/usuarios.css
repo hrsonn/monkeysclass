@@ -1,0 +1,153 @@
+/* ========== RESET / BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== ESTRUTURA PRINCIPAL ========== */
+.page-wrapper {
+  padding: 40px 24px;
+  min-height: 100vh;
+
+  background-color: #FFFEF4;
+  background-image: radial-gradient(#bcbcbc5b 0px, transparent 2.5px);
+  background-size: 24px 24px;
+}
+
+/* ========== HEADER (TÍTULO + BARRA) ========== */
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.page-title {
+  margin: 20px 0 8px 0;
+  font-size: 42px;
+  font-weight: 800;
+  color: #1e1e1e;
+  letter-spacing: -0.5px;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.page-title-bar {
+  width: 40vh;
+  max-width: 220px;
+  height: 10px;
+  background-color: #5E0006;
+  border-radius: 8px;
+  margin: 12px auto 0 auto;
+}
+
+/* ========== CONTAINER E GRID DE USUÁRIOS ========== */
+.users-container {
+  max-width: 1300px;
+  margin: 20px auto 0 auto;
+  padding: 0 12px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+  justify-items: center;
+  align-items: stretch;
+}
+
+/* ========== CARD DE USUÁRIO (MESMA IDENTIDADE VISUAL DO CARD DE PERFIL) ========== */
+.user-card {
+  background: #d9c6a3;
+  padding: 24px 20px;
+  border-radius: 20px;
+  border: 3px solid #000000;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+.user-name {
+  font-size: 28px;
+  font-weight: 800;
+  color: #2c2b26;
+  letter-spacing: -0.3px;
+  border-left: 5px solid #5E0006;
+  padding-left: 16px;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.user-role-area {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+  padding-left: 8px;
+}
+
+.role-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #5E0006;
+  color: #FFEBC4;
+  padding: 4px 10px;
+  border-radius: 40px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+.user-role {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2b2a27;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px 12px;
+  border-radius: 32px;
+  display: inline-block;
+}
+
+.user-meta {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4a3e2c;
+  border-top: 1px dashed #aa8e5e;
+  padding-top: 12px;
+}
+
+.user-meta span {
+  background: #f5e7cf;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+user-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  background: #f0f0f0;
+}
+

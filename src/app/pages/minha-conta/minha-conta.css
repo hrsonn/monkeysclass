@@ -1,0 +1,87 @@
+/* CONTAINER CENTRAL */
+.account-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* FUNDO DA PÁGINA */
+.page-wrapper {
+    padding: 40px;
+    height: 100vh;
+
+    background-color: #FFFEF4;
+    background-image: radial-gradient(#bcbcbc5b 0px, transparent 2.5px);
+    background-size: 24px 24px;
+}
+
+/* HEADER (BARRA + TÍTULO) */
+.page-header {
+    display: flex;
+    flex-direction: column; /* empilha */
+    align-items: center;   /* centraliza horizontal */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* BARRA VERMELHA */
+.page-title-bar {
+    width: 40vh;
+    height: 10px;
+    background-color: #5E0006;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+/* TÍTULO */
+.page-title {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* SUBTÍTULO */
+.page-subtitle {
+    margin: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* CARD */
+.account-card {
+    background: #d9c6a3;
+    padding: 30px 40px;
+    border-radius: 12px;
+
+    width: 500px;
+
+    border: 3px solid #000;
+    box-shadow: 6px 6px 0px #999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* INFORMAÇÕES */
+.info span {
+    font-size: 14px;
+    color: #333;
+}
+
+.info h2 {
+    margin: 2px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* BOTÃO */
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

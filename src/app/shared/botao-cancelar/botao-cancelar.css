@@ -1,0 +1,21 @@
+.btn-cancelar {
+        padding: 10px 20px;
+
+    border-radius: 10px;
+    border: 3px solid #000;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    box-shadow: 4px 4px 0px #666;
+    transition: 0.2s;
+    background: #fff;
+    color: #5E0006;
+    border-color: #5E0006;
+}
+
+/* HOVER (agora certo) */
+.btn-cancelar:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #666;
+}

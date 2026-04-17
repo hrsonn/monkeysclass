@@ -1,0 +1,46 @@
+<mat-drawer-container class="container" autosize>
+
+  <!-- SIDEBAR -->
+  <mat-drawer #drawer class="sidenav" mode="side" opened>
+
+    <div class="top">
+      <img src="assets/images/logo-monkeysclass.png" class="logo">
+    </div>
+
+    <nav>
+      <div class="link" routerLink="dashboard" routerLinkActive="link-active">
+        <mat-icon fontIcon="bar_chart"></mat-icon>
+        <span>Dashboard</span>
+      </div>
+      <div class="link" routerLink="minha-conta" routerLinkActive="link-active">
+        <mat-icon fontIcon="account_circle"></mat-icon>
+        <span>Minha Conta</span>
+      </div>
+      <div class="link" routerLink="turmas" routerLinkActive="link-active">
+        <mat-icon fontIcon="store"></mat-icon>
+        <span>Turmas</span>
+      </div>
+      <div class="link" routerLink="ocorrencias" routerLinkActive="link-active">
+        <mat-icon fontIcon="notifications"></mat-icon>
+        <span>Ocorrências</span>
+      </div>
+      <div class="link" routerLink="usuarios" routerLinkActive="link-active">
+        <mat-icon fontIcon="groups"></mat-icon>
+        <span>Usuários</span>
+      </div>
+    </nav>
+
+    <div class="footer">
+      Desenvolvido por MonkeysTech ©2026
+    </div>
+
+  </mat-drawer>
+
+  <mat-drawer-content>
+    
+    <router-outlet></router-outlet>
+
+  </mat-drawer-content>
+
+
+</mat-drawer-container>
