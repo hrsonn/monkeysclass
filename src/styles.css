@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --vermelho: #5e0006;
+  --bege: #eed9b9;
+  --preto: #000000;
+  --branco: #fffef4;
+  --sombra: 20px -20px 0px #bfbeb7;
+  --contorno: 5px solid #000000;
+  --arredondamento: 15px;
+  --fonte: 'Maven Pro', sans-serif;
+  --icone-tamanho: 24px;
+  --tamanho-titulo: 50px;
+  --tamanho-texto: 20px;
+  --tamanho-texto-navbar: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maven-pro-regular {
+  font-family: 'Maven Pro', sans-serif;
+  position: absolute;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 24px;
+  font-style: normal;
+}
