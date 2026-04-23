@@ -1,8 +1,13 @@
 :root {
   --vermelho: #5e0006;
+  --verde: #589B06;
   --bege: #eed9b9;
   --preto: #000000;
   --branco: #fffef4;
+
+  --bg-dot: #bcbcbc5b;
+  --bg-dot-size: 24px;
+
   --sombra: 20px -20px 0px #bfbeb7;
   --contorno: 5px solid #000000;
   --arredondamento: 15px;
