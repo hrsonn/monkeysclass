@@ -13,6 +13,7 @@ import { EditarAluno } from './pages/editar-aluno/editar-aluno';
 import { EditarTurma } from './pages/editar-turma/editar-turma';
 import { EditarUsuario } from './pages/editar-usuario/editar-usuario';
 import { Login } from './pages/login/login';
+import { TemplateTurma } from './pages/template-turma/template-turma';
 
 export const routes: Routes = [
   {
@@ -35,6 +36,7 @@ export const routes: Routes = [
       { path: 'editar-aluno', component: EditarAluno },
       { path: 'editar-turma', component: EditarTurma },
       { path: 'editar-usuario', component: EditarUsuario },
+      { path: 'template-turma', component: TemplateTurma },
     ],
   },
 ];

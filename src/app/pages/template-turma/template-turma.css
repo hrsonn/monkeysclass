@@ -1,0 +1,122 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background-image: radial-gradient(var(--bg-dot) 2px, transparent 2px);
+  background-size: var(--bg-dot-size) var(--bg-dot-size);
+  background-color: var(--branco);
+}
+
+.container-pagina {
+  padding: 50px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-cabecalho {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.conteudo-cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.titulo-principal {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.titulo-principal h1 {
+  margin: 0;
+  font-size: var(--tamanho-titulo);
+  font-weight: 800;
+  color: var(--preto);
+  font-family: var(--fonte);
+}
+
+.decorador-titulo {
+  width: 16px;
+  height: var(--tamanho-titulo);
+  background-color: var(--vermelho);
+}
+
+.subtitulo {
+  margin-right: 31px;
+}
+
+.subtitulo p {
+  margin: 5px 0 0 0;
+  font-size: var(--tamanho-texto);
+  font-weight: 700;
+  color: var(--preto);
+  font-family: var(--fonte);
+}
+
+.divisor-cabecalho {
+  width: 100%;
+  height: 6px;
+  background-color: var(--vermelho);
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+.grade-cartoes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.cartao-aluno {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  border-radius: var(--arredondamento);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  border: var(--contorno);
+}
+
+.topo-cartao {
+  flex: 3;
+  background-color: var(--vermelho);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: var(--contorno);
+}
+
+.topo-cartao .icone-avatar {
+  font-size: 130px;
+  width: 130px;
+  height: 130px;
+  color: var(--bege);
+}
+
+.base-cartao {
+  flex: 1;
+  background-color: var(--bege);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nome-aluno {
+  font-size: var(--tamanho-texto);
+  font-weight: 700;
+  color: var(--preto);
+  font-family: var(--fonte);
+}
+
+.icone-livro {
+  color: var(--verde);
+  font-size: var(--icone-tamanho);
+  width: var(--icone-tamanho);
+  height: var(--icone-tamanho);
+}

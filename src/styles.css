@@ -25,7 +25,7 @@
 }
 
 .maven-pro-regular {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: var(--fonte);
   position: absolute;
   font-optical-sizing: auto;
   font-weight: 600;

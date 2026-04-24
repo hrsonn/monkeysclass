@@ -1,0 +1,28 @@
+<div class="container-pagina">
+  <div class="container-cabecalho">
+    <div class="conteudo-cabecalho">
+      <div class="titulo-principal">
+        <h1>Alunos x° ano</h1>
+        <div class="decorador-titulo"></div>
+      </div>
+      <div class="subtitulo">
+        <p>Gerencie os alunos da turma</p>
+      </div>
+    </div>
+    <div class="divisor-cabecalho"></div>
+  </div>
+
+  <div class="grade-cartoes">
+    @for (aluno of alunos; track $index) {
+      <div class="cartao-aluno">
+        <div class="topo-cartao">
+          <mat-icon class="icone-avatar">portrait</mat-icon>
+        </div>
+        <div class="base-cartao">
+          <span class="nome-aluno">{{ aluno }}</span>
+          <mat-icon class="icone-livro">menu_book</mat-icon>
+        </div>
+      </div>
+    }
+  </div>
+</div>
