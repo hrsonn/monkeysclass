@@ -1,59 +1,165 @@
-# MonkeysClass
+<div align="center">
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=520000&height=260&section=header&text=MonkeysClass&fontSize=58&fontColor=FFF1D8&fontAlignY=38&desc=Sistema%20de%20Gestão%20Escolar%20Inteligente&descAlignY=60&descSize=18&animation=fadeIn"/>
 
-## Development server
+<br/>
 
-To start a local development server, run:
+<img src="https://img.shields.io/badge/Angular-21.2.2-520000?style=for-the-badge&logo=angular&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-520000?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-2B0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-520000?style=for-the-badge"/>
 
-```bash
-ng serve
-```
+<br/>
+<br/>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<strong>Uma solução moderna para gestão escolar com organização, controle e inteligência administrativa.</strong>
 
-## Code scaffolding
+</div>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000&height=3"/>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🐒 Sobre o Projeto
 
-```bash
-ng generate --help
-```
+O **MonkeysClass** é um sistema web de gestão escolar desenvolvido com Angular, focado na eficiência administrativa e no controle inteligente de ambientes educacionais.
 
-## Building
 
-To build the project run:
 
-```bash
-ng build
-```
+## 🔍 Sobre
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+O **MonkeysClass** é um sistema web de gestão escolar desenvolvido com Angular, focado no controle eficiente de:
 
-## Running unit tests
+- 🚪 Entrada e saída de alunos por salas  
+- 👨‍🏫 Gerenciamento de professores e suas turmas  
+- 🏢 Controle administrativo por funcionários  
+- 🏫 Organização de salas e alocação de turmas  
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Desenvolvido como projeto de portfólio acadêmico por uma equipe de 6 desenvolvedores.
 
-```bash
-ng test
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000&height=3"/>
 
-## Running end-to-end tests
+## ✨ Features
 
-For end-to-end (e2e) testing, run:
+<table>
+<tr>
+<td width="50%">
 
-```bash
-ng e2e
-```
+### 🚪 Controle de Entrada/Saída  
+Registro em tempo real da movimentação de alunos por sala  
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### 👨‍🎓 Gestão de Alunos  
+Cadastro, edição e acompanhamento completo  
 
-## Additional Resources
+### 👨‍🏫 Gestão de Professores  
+Vinculação a turmas e salas específicas  
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+</td>
+<td width="50%">
+
+### 🏢 Painel Administrativo  
+Visão geral da instituição  
+
+### 🏫 Gerenciamento de Salas  
+Controle de capacidade e alocação  
+
+### 🔐 Controle de Acesso  
+Níveis de permissão por usuário  
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000&height=3"/>
+
+## 🚀 Instalação
+
+### 📋 Pré-requisitos
+
+| Ferramenta   | Versão Recomendada | Download |
+|-------------|------------------|----------|
+| Node.js     | 18.x ou superior | https://nodejs.org |
+| Angular CLI | 21.x             | via npm |
+| Git         | qualquer versão  | https://git-scm.com |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000&height=3"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000,FFF1D8&height=3"/>
+
+## 🤝 Nosso Time
+
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center">
+<a href="https://github.com/hrsonn">
+<img src="https://github.com/hrsonn.png" width="100px;" />
+<br />
+<sub><b>hrsonn</b></sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/vitorjohnny">
+<img src="https://github.com/vitorjohnny.png" width="100px;" />
+<br />
+<sub><b>vitorjohnny</b></sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/RomanticMuffy">
+<img src="https://github.com/RomanticMuffy.png" width="100px;" />
+<br />
+<sub><b>RomanticMuffy</b></sub>
+</a>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+<a href="https://github.com/kauanxvn">
+<img src="https://github.com/kauanxvn.png" width="100px;" />
+<br />
+<sub><b>kauanxvn</b></sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/Maysalr">
+<img src="https://github.com/Maysalr.png" width="100px;" />
+<br />
+<sub><b>Maysalr</b></sub>
+</a>
+</td>
+
+<td align="center">
+<a href="https://github.com/manuuferreiraa">
+<img src="https://github.com/manuuferreiraa.png" width="100px;" />
+<br />
+<sub><b>manuuferreiraa</b></sub>
+</a>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=520000&height=3"/>
+
+<div align="center">
+
+Feito com 💜 pelo time MonkeysClass 🐒  
+⭐ Deixa uma estrela no projeto!
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=520000&height=120&section=footer"/>
+</div>
+
+</div>
