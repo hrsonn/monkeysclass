@@ -13,6 +13,8 @@
 <br/>
 
 <strong>Uma solução moderna para gestão escolar com organização, controle e inteligência administrativa.</strong>
+<br/>
+<strong>https://monkeysclass.vercel.app/</strong>
 
 </div>
 
